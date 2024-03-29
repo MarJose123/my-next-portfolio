@@ -1,4 +1,23 @@
 {
+  "intro": {
+    "greetings": "Hello, I'm Josie Noli Darang a",
+    "sub": "and based in the Philippines"
+  },
   "greetings": "Hello,",
-  "name": "Josie Noli Darang"
+  "name": "Josie Noli Darang",
+  "position": "Software Engineer",
+  "location": {
+    "country": {
+      "abb": "PH",
+      "name": "Philippines"
+    }
+  },
+  "stack": [
+    {
+      "name": "Laravel",
+      "icon": "https://laravel.com/img/logomark.min.svg",
+      "link": "https://laravel.com/",
+      "category": "backend"
+    }
+  ]
 }
