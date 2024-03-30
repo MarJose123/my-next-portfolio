@@ -1,4 +1,5 @@
 import useData from "@/app/utils/useData";
+import {Property} from "csstype";
 
 export default async function Home() {
     const data = await useData();
@@ -28,9 +29,13 @@ export default async function Home() {
                                       <div className="flex flex-col items-center pb-10  pt-4">
                                           {/* eslint-disable-next-line @next/next/no-img-element*/}
                                           <img
-                                              className={`w-20 h-20 mb-3 rounded-full shadow-lg ${item?.style?.object}`}
+                                              className={`w-20 h-20 mb-3 rounded-full shadow-lg`}
                                                src={item?.icon}
-                                               alt={item?.name}/>
+                                              alt={item?.name}
+                                              style={{
+                                                  objectFit: `${item?.style?.objectFit as Property.ObjectFit}`,
+                                              }}
+                                          />
                                           <p className="mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-50">{item?.name}</p>
                                           <span
                                               className="text-sm text-gray-600 dark:text-gray-400">{item?.category}</span>

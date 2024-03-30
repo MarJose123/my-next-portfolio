@@ -19,7 +19,7 @@
       "link": "https://laravel.com/",
       "category": "Backend & Frontend",
       "style": {
-        "object": "object-none"
+        "objectFit": "none"
       }
     },
     {
@@ -28,7 +28,7 @@
       "link": "https://lumen.laravel.com",
       "category": "Backend",
       "style": {
-        "object": "object-scale-down"
+        "objectFit": "cover"
       }
     },
     {
@@ -37,7 +37,7 @@
       "link": "https://www.djangoproject.com/",
       "category": "Backend & Frontend",
       "style": {
-        "object": "object-fit"
+        "objectFit": "cover"
       }
     },
     {
@@ -46,7 +46,7 @@
       "link": "https://www.python.org/",
       "category": "Home Automation",
       "style": {
-        "object": "object-none"
+        "objectFit": "none"
       }
     },
     {
@@ -55,7 +55,7 @@
       "link": "https://nextjs.org/",
       "category": "Backend & Frontend",
       "style": {
-        "object": "object-none"
+        "objectFit": "cover"
       }
     },
     {
@@ -64,7 +64,7 @@
       "link": "https://react.dev/",
       "category": "Frontend",
       "style": {
-        "object": "object-none"
+        "objectFit": "contain"
       }
     },
     {
@@ -73,7 +73,25 @@
       "link": "https://reactnative.dev/",
       "category": "Mobile",
       "style": {
-        "object": "object-none"
+        "objectFit": "contain"
+      }
+    },
+    {
+      "name": "VB .NET",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg",
+      "link": "https://learn.microsoft.com/en-us/dotnet/visual-basic/",
+      "category": "Windows App",
+      "style": {
+        "objectFit": "fill"
+      }
+    },
+    {
+      "name": "Zoho Deluge",
+      "icon": "https://static.zohocdn.com/dre/images/favicon.57a1e7487f36dc3a1c27b85ce66f2446.ico",
+      "link": "https://www.zoho.com/deluge/",
+      "category": "Deluge",
+      "style": {
+        "objectFit": "none"
       }
     },
     {
@@ -82,7 +100,7 @@
       "link": "https://www.mysql.com/",
       "category": "Mobile",
       "style": {
-        "object": "object-cover"
+        "objectFit": "fill"
       }
     },
     {
@@ -91,7 +109,25 @@
       "link": "https://tailwindcss.com/",
       "category": "CSS Framework",
       "style": {
-        "object": "object-cover"
+        "objectFit": "fill"
+      }
+    },
+    {
+      "name": "Apache",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg",
+      "link": "https://httpd.apache.org/",
+      "category": "HTTP Server",
+      "style": {
+        "objectFit": "fill"
+      }
+    },
+    {
+      "name": "DigitalOcean",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c2/DigitalOcean_icon.svg",
+      "link": "https://www.digitalocean.com/",
+      "category": "Cloud Server",
+      "style": {
+        "objectFit": "fill"
       }
     }
   ]
