@@ -26,6 +26,7 @@ export default async function Home() {
                                       href={item?.link}
                                       className='w-full max-w-sm bg-slate-200 border border-slate-200 rounded-lg shadow dark:bg-slate-800 dark:border-slate-700'>
                                       <div className="flex flex-col items-center pb-10  pt-4">
+                                          {/* eslint-disable-next-line @next/next/no-img-element*/}
                                           <img
                                               className={`w-20 h-20 mb-3 rounded-full shadow-lg ${item?.style?.object}`}
                                                src={item?.icon}
