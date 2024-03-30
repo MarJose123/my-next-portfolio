@@ -9,31 +9,30 @@ export default async function Home() {
       <main className='w-full flex flex-row flex-wrap'>
           <section className='flex w-full py-14'/>
           <div className='flex w-full flex-wrap'>
-              <div className='flex w-full flex-row'>
+              <div className='flex w-full flex-row md:flex-col-reverse lg:flex-row'>
                   <div className='w-full flex flex-col'>
                       <p className='text-xl dark:text-slate-50'>{data?.intro?.greetings}</p>
                       <p className='text-5xl font-bold dark:text-slate-50'>{data?.position}</p>
                       <p className='text-base font-semibold dark:text-slate-50'>{data?.intro?.sub}</p>
                   </div>
                   <div className='flex w-full flex-row'>
-                      <div className='w-full flex pr-28'>
+                      <div className='w-full flex pr-28 md:items-center'>
                           {/* eslint-disable-next-line @next/next/no-img-element*/}
                           <img
-                              className='w-32 h-32 object-cover rounded-full ml-auto'
+                              className='w-32 h-32 md:w-20 md:h-20 object-cover rounded-full ml-auto'
                               src='https://avatars.githubusercontent.com/u/18107626?v=4'
                               alt='avatar'
                           />
                       </div>
                   </div>
-
               </div>
           </div>
           <section className='flex w-full py-14'/>
           <div className='flex w-full flex-col flex-wrap gap-2 pb-10'>
               <p className='text-xl font-semibold dark:text-slate-50'>Tech Stack</p>
               <div className='flex w-full flex-row flex-wrap'>
-                  <div className='flex w-full flex-col flex-wrap'>
-                      <div className='grid grid-cols-4 gap-2'>
+                  <div className='flex w-full flex-col flex-wrap md:shrink-0'>
+                      <div className='md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 gap-2 flex flex-col'>
                           {data?.stack?.map((item: any, index: number) => {
                               return (
                                   <a
@@ -51,9 +50,9 @@ export default async function Home() {
                                                   objectFit: `${item?.style?.objectFit as Property.ObjectFit}`,
                                               }}
                                           />
-                                          <p className="mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-50">{item?.name}</p>
+                                          <p className="mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-50 text-center">{item?.name}</p>
                                           <span
-                                              className="text-sm text-gray-600 dark:text-gray-400">{item?.category}</span>
+                                              className="text-sm text-gray-600 dark:text-gray-400 text-center">{item?.category}</span>
                                       </div>
                                   </a>
                               );
