@@ -15,8 +15,8 @@ export default function Template({children}: { children: React.ReactNode }) {
     return (
         <div className="flex w-full max-h-dvh py-10">
             <div className="flex w-full flex-col px-72">
-                <nav className='flex w-full'>
-                    <div className='flex bg-transparent sticky top-20 ml-auto'>
+                <nav className='flex w-full sticky top-[9px]'>
+                    <div className='flex bg-transparent ml-auto'>
                         <div className='block dark:hidden' onClick={() => {
                             localStorage.theme = 'dark'
                             setTheme('dark');
