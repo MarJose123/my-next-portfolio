@@ -17,7 +17,9 @@ export default function Template({children}: { children: React.ReactNode }) {
             <div className="flex w-full flex-col px-72">
                 <nav className='flex w-full sticky top-[9px]'>
                     <div className='flex bg-transparent ml-auto'>
-                        <div className='block dark:hidden' onClick={() => {
+                        <div
+                            className='block dark:hidden transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'
+                            onClick={() => {
                             localStorage.theme = 'dark'
                             setTheme('dark');
                         }}>
