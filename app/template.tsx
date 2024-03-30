@@ -15,7 +15,7 @@ export default function Template({children}: { children: React.ReactNode }) {
     return (
         <div className="flex w-full max-h-dvh py-10">
             <div className="flex w-full flex-col px-72">
-                <nav className='flex w-full sticky top-[9px]'>
+                <nav className='flex w-full'>
                     <div className='flex bg-transparent ml-auto'>
                         <div
                             className='block dark:hidden transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'
