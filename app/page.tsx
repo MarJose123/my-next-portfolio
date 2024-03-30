@@ -26,7 +26,8 @@ export default async function Home() {
                                       href={item?.link}
                                       className='w-full max-w-sm bg-slate-200 border border-slate-200 rounded-lg shadow dark:bg-slate-800 dark:border-slate-700'>
                                       <div className="flex flex-col items-center pb-10  pt-4">
-                                          <img className="w-20 h-20 mb-3 rounded-full shadow-lg object-none"
+                                          <img
+                                              className={`w-20 h-20 mb-3 rounded-full shadow-lg ${item?.style?.object}`}
                                                src={item?.icon}
                                                alt={item?.name}/>
                                           <p className="mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-50">{item?.name}</p>
