@@ -17,7 +17,82 @@
       "name": "Laravel",
       "icon": "https://laravel.com/img/logomark.min.svg",
       "link": "https://laravel.com/",
-      "category": "backend"
+      "category": "Backend & Frontend",
+      "style": {
+        "object": "object-none"
+      }
+    },
+    {
+      "name": "Lumen",
+      "icon": "https://icon.icepanel.io/Technology/svg/Lumen.svg",
+      "link": "https://lumen.laravel.com",
+      "category": "Backend",
+      "style": {
+        "object": "object-scale-down"
+      }
+    },
+    {
+      "name": "Django",
+      "icon": "https://static.djangoproject.com/img/icon-touch.e4872c4da341.png",
+      "link": "https://www.djangoproject.com/",
+      "category": "Backend & Frontend",
+      "style": {
+        "object": "object-fit"
+      }
+    },
+    {
+      "name": "Python",
+      "icon": "https://www.python.org/static/favicon.ico",
+      "link": "https://www.python.org/",
+      "category": "Home Automation",
+      "style": {
+        "object": "object-none"
+      }
+    },
+    {
+      "name": "Nextjs",
+      "icon": "https://nextjs.org/favicon.ico",
+      "link": "https://nextjs.org/",
+      "category": "Backend & Frontend",
+      "style": {
+        "object": "object-none"
+      }
+    },
+    {
+      "name": "ReactJS",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "link": "https://react.dev/",
+      "category": "Frontend",
+      "style": {
+        "object": "object-none"
+      }
+    },
+    {
+      "name": "React Native",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "link": "https://reactnative.dev/",
+      "category": "Mobile",
+      "style": {
+        "object": "object-none"
+      }
+    },
+    {
+      "name": "MySQL",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
+      "link": "https://www.mysql.com/",
+      "category": "Mobile",
+      "style": {
+        "object": "object-cover"
+      }
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      "link": "https://tailwindcss.com/",
+      "category": "CSS Framework",
+      "style": {
+        "object": "object-cover"
+      }
     }
   ]
 }
