@@ -25,7 +25,7 @@ export default async function Home() {
                                       key={index}
                                       id={`stack-${index}`}
                                       href={item?.link}
-                                      className='w-full max-w-sm bg-slate-200 border border-slate-200 rounded-lg shadow dark:bg-slate-800 dark:border-slate-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105'>
+                                      className='w-full max-w-sm bg-slate-200 border border-slate-200 rounded-lg shadow dark:bg-slate-800 dark:border-slate-700 hover:transition hover:ease-in-out hover:delay-150 hover:-translate-y-1 hover:scale-105'>
                                       <div className="flex flex-col items-center pb-10  pt-4">
                                           {/* eslint-disable-next-line @next/next/no-img-element*/}
                                           <img
