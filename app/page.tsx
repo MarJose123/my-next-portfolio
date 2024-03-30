@@ -13,7 +13,7 @@ export default async function Home() {
               <p className='text-base font-semibold dark:text-slate-50'>{data?.intro?.sub}</p>
           </div>
           <section className='flex w-full py-14'/>
-          <div className='flex w-full flex-col flex-wrap gap-2'>
+          <div className='flex w-full flex-col flex-wrap gap-2 pb-10'>
               <p className='text-xl font-semibold dark:text-slate-50'>Tech Stack</p>
               <div className='flex w-full flex-row flex-wrap'>
                   <div className='flex w-full flex-col flex-wrap'>
