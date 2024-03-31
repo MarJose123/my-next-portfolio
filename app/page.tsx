@@ -19,7 +19,7 @@ export default async function Home() {
                       <div className='w-full flex pr-28 md:items-center'>
                           {/* eslint-disable-next-line @next/next/no-img-element*/}
                           <img
-                              className='w-32 h-32 md:w-20 md:h-20 object-cover rounded-full ml-auto'
+                              className='w-32 h-32 md:w-32 md:h-32 object-cover rounded-full ml-auto'
                               src='https://avatars.githubusercontent.com/u/18107626?v=4'
                               alt='avatar'
                           />
