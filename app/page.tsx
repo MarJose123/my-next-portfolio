@@ -9,13 +9,13 @@ export default async function Home() {
       <main className='w-full flex flex-row flex-wrap'>
           <section className='flex w-full py-14'/>
           <div className='flex w-full flex-wrap'>
-              <div className='flex w-full flex-row md:flex-col-reverse lg:flex-row'>
+              <div className='flex w-full flex-col-reverse lg:flex-row'>
                   <div className='w-full flex flex-col'>
-                      <p className='text-xl dark:text-slate-50'>{data?.intro?.greetings}</p>
-                      <p className='text-5xl font-bold dark:text-slate-50'>{data?.position}</p>
-                      <p className='text-base font-semibold dark:text-slate-50'>{data?.intro?.sub}</p>
+                      <p className='text-xl text-center md:text-left dark:text-slate-50'>{data?.intro?.greetings}</p>
+                      <p className='text-4xl text-center md:text-left md:text-5xl font-bold dark:text-slate-50'>{data?.position}</p>
+                      <p className='text-center md:text-left text-base font-semibold dark:text-slate-50'>{data?.intro?.sub}</p>
                   </div>
-                  <div className='flex w-full flex-row'>
+                  <div className='flex w-full flex-row py-4'>
                       <div className='w-full flex pr-28 md:items-center'>
                           {/* eslint-disable-next-line @next/next/no-img-element*/}
                           <img
