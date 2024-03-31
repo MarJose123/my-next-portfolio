@@ -1,3 +1,8 @@
+/*
+ * Implemented by JND
+ * Copyright (c) 2024.
+ */
+
 import useData from "@/app/utils/useData";
 import {Property} from "csstype";
 

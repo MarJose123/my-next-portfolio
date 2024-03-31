@@ -1,3 +1,8 @@
+/*
+ * Implemented by JND
+ * Copyright (c) 2024.
+ */
+
 'use client';
 import React, {useEffect, useState} from "react";
 
