@@ -98,7 +98,7 @@
       "name": "MySQL",
       "icon": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
       "link": "https://www.mysql.com/",
-      "category": "Mobile",
+      "category": "Database",
       "style": {
         "objectFit": "fill"
       }
