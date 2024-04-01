@@ -32,6 +32,24 @@
       }
     },
     {
+      "name": "FilamentPHP",
+      "icon": "https://filamentphp.com/favicon/apple-touch-icon.png?v=w1dBNxT7Wg",
+      "link": "https://filamentphp.com/",
+      "category": "Backend & Frontend",
+      "style": {
+        "objectFit": "cover"
+      }
+    },
+    {
+      "name": "Livewire",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/livewire/livewire-original.svg",
+      "link": "https://laravel-livewire.com/",
+      "category": "Frontend",
+      "style": {
+        "objectFit": "cover"
+      }
+    },
+    {
       "name": "Django",
       "icon": "https://static.djangoproject.com/img/icon-touch.e4872c4da341.png",
       "link": "https://www.djangoproject.com/",
