@@ -1,11 +1,11 @@
 {
   "intro": {
     "greetings": "Hello, I'm Josie Noli Darang",
-    "sub": "and based in the Philippines"
+    "sub": "Focused on Back-end and based in the Philippines"
   },
   "greetings": "Hello,",
   "name": "Josie Noli Darang",
-  "position": "Software Engineer",
+  "position": "Full Stack Developer",
   "location": {
     "country": {
       "abb": "PH",
