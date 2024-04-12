@@ -1,6 +1,8 @@
 import { GetServerSideProps, InferGetStaticPropsType } from "next";
 import { getStaticProps } from "next/dist/build/templates/pages";
 import { Property } from "csstype";
+import fsPromises from "fs/promises";
+import path from "node:path";
 type Content = {
   intro: {
     greetings: string;
@@ -27,8 +29,10 @@ type Content = {
 };
 
 export const getServerSideProps = (async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/payload.json`);
-  const data: Content = await res.json();
+  const dataFilePath = path.join(process.cwd(), "/src/pages/payload.json");
+  const jsonData = await fsPromises.readFile(dataFilePath, "utf-8");
+  const data: Content = JSON.parse(jsonData);
+
   return { props: { data } };
 }) satisfies GetServerSideProps<{ data: Content }>;
 
