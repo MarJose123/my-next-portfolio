@@ -3,6 +3,8 @@ import { getStaticProps } from "next/dist/build/templates/pages";
 import { Property } from "csstype";
 import fsPromises from "fs/promises";
 import path from "node:path";
+import { Chrono } from "@/pages/components/react-chrono-client";
+
 type Content = {
   intro: {
     greetings: string;
@@ -26,6 +28,7 @@ type Content = {
       objectFit: string;
     };
   };
+  experience: [];
 };
 
 export const getServerSideProps = (async () => {
@@ -69,6 +72,7 @@ export default function Page({
         </div>
       </div>
       <section className="flex w-full py-14" />
+      {/* TECHNOLOGY STACK DIVISION - START HERE */}
       <div className="flex w-full flex-col flex-wrap gap-2 pb-10 ">
         <p className="text-xl font-semibold dark:text-slate-50">Tech Stack</p>
         <div className="flex w-full flex-row flex-wrap">
@@ -104,6 +108,26 @@ export default function Page({
               })}
             </div>
           </div>
+        </div>
+      </div>
+      {/* TECHNOLOGY STACK DIVISION - END HERE */}
+      {/*  TIMELINE FOR WORK EXPERIENCE AND EDUCATION - START HERE */}
+      <div className="flex w-full flex-col flex-wrap gap-2 pb-10">
+        <p className="text-xl font-semibold dark:text-slate-50">
+          Experience & Education
+        </p>
+        <div className="flex w-full flex-row flex-wrap justify-center">
+          <Chrono
+            items={data?.experience}
+            mode="VERTICAL_ALTERNATING"
+            // hideControls={true}
+            hideToolbar={true}
+            disableToolbar={true}
+            enableQuickJump={false}
+            enableLayoutSwitch={false}
+            disableInteraction={true}
+            parseDetailsAsHTML
+          />
         </div>
       </div>
     </main>

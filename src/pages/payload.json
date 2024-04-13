@@ -148,5 +148,49 @@
         "objectFit": "fill"
       }
     }
+  ],
+  "experience": [
+    {
+      "title": "Dec 2023 - Present",
+      "cardTitle": "Full Stack Developer",
+      "cardSubtitle": "@Last Farewells",
+      "cardDetailedText": "-Collaborating on system design and architecture, ensuring alignment with business objectives.<br/>-Leading full-stack development, designing responsive front-end interfaces and implementing efficient back-end system<br/>-Managing database design and optimization, ensuring data integrity and security.<br/>-Developing and maintaining RESTful APIs for seamless communication between front-end and back-end components.<br/>-Implementing comprehensive testing strategies to ensure application reliability, performance, and security.<br/>-Identifying and addressing performance bottlenecks, optimizing code, and enhancing application scalability.<br/>-Providing technical leadership and mentorship to junior developers, promoting best practices and coding standards.<br/>-Collaborating with cross-functional teams to translate requirements into technical solutions<br/>-Proactively identifying opportunities for process improvement and automation.<br/>-Creating and maintaining technical documentation to facilitate ongoing support and maintenance.",
+      "url": ""
+    },
+    {
+      "title": "Mar 2020 - Dec 2023",
+      "cardTitle": "Sr. Zoho Developer - Team Leader / PSD",
+      "cardSubtitle": "@FWRD; Rewarding Databases",
+      "cardDetailedText": "- Responsible for managing scope requirements and designing solutions for clients desired features.<br/>- Provides customization estimates<br/>- Customizes CRM requirements in scalable and upgrade safe manner<br/>- Identify existing CRM customization bottlenecks and provide solutions or optimizations<br/>- Integrates features to CRM leveraging web applications and RESTful web services.<br/>- Configures Zoho CRM base on client requirements using admin settings<br/>- Attend to daily scrums with client to discuss progress updates",
+      "url": ""
+    },
+    {
+      "title": "Jun 2019 - Dec 2023",
+      "cardTitle": "Software Developer / SR. Zoho Developer",
+      "cardSubtitle": "@DEVTAC CRM INC.",
+      "cardDetailedText": "- Responsible for managing scope requirements and designing solutions for clients desired features.<br/>- Provides customization estimates<br/>- Customizes CRM requirements in scalable and upgrade safe manner<br/>- Identify existing CRM customization bottlenecks and provide solutions or optimizations<br/>- Integrates features to CRM leveraging web applications and RESTful web services.<br/>- Configures Zoho CRM base on client requirements using admin settings<br/>- Attend to daily scrums with client to discuss progress updates",
+      "url": ""
+    },
+    {
+      "title": "Jun 2017 - Jun 201",
+      "cardTitle": "Head Management Information System",
+      "cardSubtitle": "@LVD",
+      "cardDetailedText": "-Managing and Maintaining Computer",
+      "url": ""
+    },
+    {
+      "title": "June 2017-Aug 2017",
+      "cardTitle": "Full Stack PHP Developer",
+      "cardSubtitle": "Freelance",
+      "cardDetailedText": "Created a Customer Relation Management System focused and tailored for a Gas & Cylinder Business",
+      "url": ""
+    },
+    {
+      "title": "June 2017",
+      "cardTitle": "Graduated from College",
+      "cardSubtitle": "",
+      "cardDetailedText": "I graduate in College with a course of Bachelor in Information and Technology",
+      "url": ""
+    }
   ]
 }
