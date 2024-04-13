@@ -46,13 +46,13 @@ export default function Page({
       <div className="flex w-full flex-wrap">
         <div className="flex w-full flex-col-reverse lg:flex-row">
           <div className="w-full flex flex-col">
-            <p className="text-xl text-center md:text-left dark:text-slate-50 animate-slidein-300 opacity-0">
+            <p className="text-xl text-center md:text-left dark:text-slate-50">
               {data?.intro?.greetings}
             </p>
-            <p className="text-4xl text-center md:text-left md:text-5xl font-bold dark:text-slate-50 animate-slidein-500 opacity-0">
+            <p className="text-4xl text-center md:text-left md:text-5xl font-bold dark:text-slate-50">
               {data?.position}
             </p>
-            <p className="text-center md:text-left text-base font-semibold dark:text-slate-50 animate-slidein-700 opacity-0">
+            <p className="text-center md:text-left text-base font-semibold dark:text-slate-50">
               {data?.intro?.sub}
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Page({
             <div className="w-full flex pr-28 md:items-center">
               {/* eslint-disable-next-line @next/next/no-img-element*/}
               <img
-                className="w-32 h-32 md:w-32 md:h-32 object-cover rounded-full ml-auto animate-slidein-900 opacity-0"
+                className="w-32 h-32 md:w-32 md:h-32 object-cover rounded-full ml-auto"
                 src="https://avatars.githubusercontent.com/u/18107626?v=4"
                 alt="avatar"
               />
@@ -69,7 +69,7 @@ export default function Page({
         </div>
       </div>
       <section className="flex w-full py-14" />
-      <div className="flex w-full flex-col flex-wrap gap-2 pb-10 animate-slidein-1000 opacity-0">
+      <div className="flex w-full flex-col flex-wrap gap-2 pb-10 ">
         <p className="text-xl font-semibold dark:text-slate-50">Tech Stack</p>
         <div className="flex w-full flex-row flex-wrap">
           <div className="flex w-full flex-col flex-wrap md:shrink-0">

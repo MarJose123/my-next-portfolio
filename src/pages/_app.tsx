@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={inter.className}>
       <div className="flex w-full max-h-dvh py-10">
-        <div className="flex w-full flex-col sm:px-4 md:px-72 px-5 animate-slidein-300 opacity-0">
+        <div className="flex w-full flex-col sm:px-4 md:px-72 px-5">
           <nav className="flex w-full">
             <div className="flex bg-transparent ml-auto gap-4">
               <a
