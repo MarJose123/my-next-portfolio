@@ -3,7 +3,7 @@ import { getStaticProps } from "next/dist/build/templates/pages";
 import { Property } from "csstype";
 import fsPromises from "fs/promises";
 import path from "node:path";
-import { Chrono } from "@/components/react-chrono-client";
+import { Chrono } from "@/components/ReactChrono";
 import Head from "next/head";
 
 type Content = {
