@@ -195,10 +195,10 @@
   ],
   "projects": [
     {
-      "title": "LastFarewells",
+      "title": "Dec 2023 - Present",
       "cardTitle": "Full Stack Developer",
-      "cardSubtitle": "",
-      "cardDetailedText": "",
+      "cardSubtitle": "LastFarewells",
+      "cardDetailedText": "An emotional end of life planning platform that helps you leave no words left unspoken through last messages and personalized memorial page.",
       "url": "",
       "media": {
         "name": "LastFarewells",

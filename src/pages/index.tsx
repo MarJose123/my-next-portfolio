@@ -6,6 +6,7 @@ import path from "path";
 import { Chrono } from "@/components/ReactChrono";
 import Head from "next/head";
 import { Tooltip } from "react-tooltip";
+import NextjsOriginal from "react-devicons/nextjs/original";
 
 type Content = {
   intro: {
@@ -133,7 +134,7 @@ export default function Page({
               enableLayoutSwitch={false}
               disableInteraction={true}
               parseDetailsAsHTML
-            />
+            ></Chrono>
           </div>
         </div>
         {/*  TIMELINE FOR WORK EXPERIENCE AND EDUCATION - END HERE */}
@@ -172,7 +173,7 @@ export default function Page({
               enableLayoutSwitch={false}
               disableInteraction={true}
               mediaHeight={120}
-              mediaWidth={50}
+              mediaWidth={200}
               parseDetailsAsHTML
             />
           </div>
