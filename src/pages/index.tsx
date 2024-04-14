@@ -43,7 +43,6 @@ export const getServerSideProps = (async () => {
 export default function Page({
   data,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  // return data;
   return (
     <>
       <Head>
