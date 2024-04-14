@@ -1,9 +1,9 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import React, { useEffect, useState } from "react";
-import { Inter } from "next/font/google";
+import { Figtree } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const figtree = Figtree({ weight: ["400", "600"], subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState("light");
@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [theme]);
 
   return (
-    <div className={inter.className}>
+    <main className={`${figtree.className} subpixel-antialiased`}>
       <div className="flex w-full max-h-dvh py-10">
         <div className="flex w-full flex-col sm:px-4 md:px-72 px-5">
           <nav className="flex w-full">
@@ -110,6 +110,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
