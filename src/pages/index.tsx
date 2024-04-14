@@ -2,9 +2,10 @@ import { GetServerSideProps, InferGetStaticPropsType } from "next";
 import { getStaticProps } from "next/dist/build/templates/pages";
 import { Property } from "csstype";
 import fsPromises from "fs/promises";
-import path from "node:path";
+import path from "path";
 import { Chrono } from "@/components/ReactChrono";
 import Head from "next/head";
+import { Tooltip } from "react-tooltip";
 
 type Content = {
   intro: {
@@ -30,6 +31,7 @@ type Content = {
     };
   };
   experience: [];
+  projects: [];
 };
 
 export const getServerSideProps = (async () => {
@@ -130,6 +132,47 @@ export default function Page({
               enableQuickJump={false}
               enableLayoutSwitch={false}
               disableInteraction={true}
+              parseDetailsAsHTML
+            />
+          </div>
+        </div>
+        {/*  TIMELINE FOR WORK EXPERIENCE AND EDUCATION - END HERE */}
+        <div className="flex w-full flex-col flex-wrap gap-4 pb-10">
+          <Tooltip id="project-tooltip" />
+          <div className="flex flex-row">
+            <p className="text-xl font-semibold dark:text-slate-50">Projects</p>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4 text-amber-500 dark:text-amber-200"
+                data-tooltip-id="project-tooltip"
+                data-tooltip-content="Projects that I'm involved with."
+                data-tooltip-place="right"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="flex w-full flex-row flex-wrap justify-center">
+            <Chrono
+              items={data?.projects}
+              mode="VERTICAL_ALTERNATING"
+              scrollable={true}
+              hideToolbar={true}
+              disableToolbar={true}
+              enableQuickJump={false}
+              enableLayoutSwitch={false}
+              disableInteraction={true}
+              mediaHeight={120}
+              mediaWidth={50}
               parseDetailsAsHTML
             />
           </div>

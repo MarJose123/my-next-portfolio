@@ -192,5 +192,21 @@
       "cardDetailedText": "I graduate in College with a course of Bachelor in Information and Technology",
       "url": ""
     }
+  ],
+  "projects": [
+    {
+      "title": "LastFarewells",
+      "cardTitle": "Full Stack Developer",
+      "cardSubtitle": "",
+      "cardDetailedText": "",
+      "url": "",
+      "media": {
+        "name": "LastFarewells",
+        "source": {
+          "url": "https://www.lastfarewells.com/wp-content/uploads/2024/01/lf-logo@2x.png"
+        },
+        "type": "IMAGE"
+      }
+    }
   ]
 }
