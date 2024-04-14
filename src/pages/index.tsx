@@ -124,7 +124,7 @@ export default function Page({
             <Chrono
               items={data?.experience}
               mode="VERTICAL_ALTERNATING"
-              // hideControls={true}
+              scrollable={true}
               hideToolbar={true}
               disableToolbar={true}
               enableQuickJump={false}
